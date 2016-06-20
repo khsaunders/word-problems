@@ -15,4 +15,22 @@
 var string = "This movie was not bad"
 string.search("not" && "bad")
 
-//I know this will have some kind of replace() feature to it. But it's simply a matter of being able to identify the string first. 
+I know this will have some kind of replace() feature to it. But it's simply a matter of being able to identify the string first.
+
+Interesting to see how others have solved this:
+Aaron's method for solving this.
+
+
+function notBad (string){
+if (strong.search('not bad') > 0){
+  console.log(string.replace "not bad", "good"));
+  }
+else {
+  console.log(string);
+  }
+}
+
+notBad("Josta is not bad");
+notBad("Mad Max is amaze ");
+
+Actually works! Cool! Commit this to memory. 
